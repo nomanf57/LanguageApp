@@ -4,4 +4,5 @@ export enum Stack {
 }
 export enum Route {
   LevelList = 'LevelList',
+  Exercise = 'Exercise',
 }
