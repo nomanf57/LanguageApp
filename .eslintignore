@@ -1,0 +1,16 @@
+__tests__/**
+.babelrc.js
+.prettierc.js
+index.js
+node_modules/**
+ios/**
+android/**
+app.json
+package.json
+package-lock.json
+*.lock
+tsconfig.json
+*.ttf
+*.png
+*.svg
+*.json

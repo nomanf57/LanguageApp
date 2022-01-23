@@ -1,0 +1,9 @@
+.eslintignore
+.gitignore
+ios/*
+android/*
+yarn.lock
+.prettierignore
+*.ttf
+*.png
+*.svg
