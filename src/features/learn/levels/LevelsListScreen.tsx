@@ -5,15 +5,12 @@ import { FlatList, ListRenderItem, SafeAreaView, View } from 'react-native';
 import { LevelItem, ItemSeparator } from '@common/components';
 import { useNavigation } from '@react-navigation/native';
 import { Route } from 'navigation/routes';
+import { useLevels } from '@core/hooks';
 import style from './styles';
 
 const LevelsListScreen: FC = () => {
   const navigation = useNavigation();
-
-  const levels: Level[] = [
-    { id: 'level_1', name: 'Level 1' },
-    { id: 'level_2', name: 'Level 2' },
-  ];
+  const { levels } = useLevels();
 
   const renderLevelItem: ListRenderItem<Level> = ({ item }) => (
     <LevelItem

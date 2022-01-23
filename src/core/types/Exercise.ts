@@ -9,3 +9,7 @@ export declare type Question = {
   status: QuestionStatus;
   words: WorkWithTranslation[];
 };
+
+export declare type Exercise = {
+  questions: Question[];
+};
