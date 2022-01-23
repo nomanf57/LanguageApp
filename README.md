@@ -1,34 +1,7 @@
 # Architecture Structure
 
-├── app
-│   └── App.tsx
-├── common
-│   ├── components
-│   │   ├── ItemSeparator
-│   │   └── index.ts
-│   ├── hooks
-│   └── i18n
-├── core
-│   ├── constants.ts
-│   ├── hooks
-│   │   ├── index.ts
-│   │   ├── useExercise.ts
-│   │   └── useLevels.ts
-│   └── types
-│       ├── Exercise.ts
-│       └── Level.ts
-├── features
-│   ├── account
-│   ├── leadersboard
-│   ├── learn
-│   │   ├── exercise
-│   │   └── levels
-│   └── shop
-└── navigation
-    ├── index.tsx
-    ├── routes.ts
-    └── stacks
-        └── AppNavigationStack.tsx
+![image](https://user-images.githubusercontent.com/53429203/150695480-3be12cb8-47e9-4d9b-840a-7234ba498774.png)
+
 
 # Libraries
 
