@@ -1,7 +1,13 @@
 import React from 'react';
 import type { ReactNode } from 'react';
-import { Text } from 'react-native';
+import { ActivityIndicator } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import RootNavigationStack from 'navigation';
 
-const App: () => ReactNode = () => <Text>Hello</Text>;
+const App: () => ReactNode = () => (
+  <NavigationContainer fallback={<ActivityIndicator />}>
+    <RootNavigationStack />
+  </NavigationContainer>
+);
 
 export default App;
